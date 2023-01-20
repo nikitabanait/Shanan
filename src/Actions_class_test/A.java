@@ -17,7 +17,8 @@ public class A
 		act.moveToElement(target).perform();//use movetoelement method
 		act.contextClick(target).perform();//right click on target element
 		act.click(target).perform();//leftclick(click)
-		act.moveToElement(target).doubleClick().perform();		
+		act.moveToElement(target).doubleClick().perform();	
+		System.out.println("Target element");
 	}
 
 }
